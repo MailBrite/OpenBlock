@@ -1,0 +1,13 @@
+{
+    "name": "OpenBlock Adblocker",
+    "version": "1.0",
+    "description": "Adblocker Extention",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "128": "logo_128x128.png"
+    },
+    "manifest_version": 2
+}
